@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Свадебное приглашение</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- локальные шрифты -->
+  <style>
+    @font-face {
+      font-family: "Good Vibes Pro";
+      src: url("./GoodVibesPro.woff2");
+    }
+    @font-face {
+      font-family: "New Standard Old";
+      src: url("./NewStandardOld.woff2");
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="shooting-star"></div>
+
+  <div class="bg">
+    <div class="stars">
+    <div class="star" style="--x: 5%; --y: 12%; --size: 2px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 85%; --y: 7%; --size: 3px; --glow: 0.6;"></div>
+    <div class="star" style="--x: 30%; --y: 45%; --size: 2.5px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 92%; --y: 60%; --size: 1.8px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 15%; --y: 80%; --size: 3.2px; --glow: 0.5;"></div>
+    <div class="star" style="--x: 50%; --y: 25%; --size: 2.2px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 75%; --y: 90%; --size: 2.8px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 5%; --y: 55%; --size: 1.5px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 40%; --y: 10%; --size: 3px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 65%; --y: 35%; --size: 2.4px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 20%; --y: 70%; --size: 2.7px; --glow: 0.6;"></div>
+    <div class="star" style="--x: 88%; --y: 20%; --size: 2px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 12%; --y: 30%; --size: 3.1px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 55%; --y: 50%; --size: 2.3px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 78%; --y: 85%; --size: 1.9px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 3%; --y: 95%; --size: 2.6px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 90%; --y: 40%; --size: 2.9px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 25%; --y: 15%; --size: 2.1px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 60%; --y: 65%; --size: 3.3px; --glow: 0.6;"></div>
+    <div class="star" style="--x: 45%; --y: 88%; --size: 2.5px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 10%; --y: 35%; --size: 2.4px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 70%; --y: 85%; --size: 1.7px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 3%; --y: 15%; --size: 2.8px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 55%; --y: 45%; --size: 2px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 95%; --y: 50%; --size: 3.1px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 25%; --y: 65%; --size: 2.3px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 80%; --y: 20%; --size: 1.9px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 40%; --y: 90%; --size: 2.6px; --glow: 0.6;"></div>
+    <div class="star" style="--x: 12%; --y: 75%; --size: 2.1px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 68%; --y: 10%; --size: 2.9px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 5%; --y: 55%; --size: 1.8px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 88%; --y: 60%; --size: 2.5px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 33%; --y: 25%; --size: 3px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 92%; --y: 80%; --size: 2.2px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 18%; --y: 48%; --size: 2.7px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 50%; --y: 12%; --size: 2px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 7%; --y: 88%; --size: 2.4px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 62%; --y: 30%; --size: 1.6px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 22%; --y: 5%; --size: 3.2px; --glow: 0.6;"></div>
+    <div class="star" style="--x: 85%; --y: 70%; --size: 2.8px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 14%; --y: 40%; --size: 2.1px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 77%; --y: 95%; --size: 1.9px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 38%; --y: 18%; --size: 2.5px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 90%; --y: 33%; --size: 3px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 28%; --y: 60%; --size: 2.3px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 53%; --y: 78%; --size: 2.7px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 1%; --y: 23%; --size: 2.9px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 65%; --y: 52%; --size: 1.8px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 42%; --y: 82%; --size: 2.6px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 83%; --y: 4%; --size: 2.2px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 35%; --y: 10%; --size: 2.3px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 82%; --y: 45%; --size: 1.8px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 12%; --y: 68%; --size: 2.6px; --glow: 0.75;"></div> 
+    <div class="star" style="--x: 58%; --y: 22%; --size: 2px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 93%; --y: 75%; --size: 2.9px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 23%; --y: 33%; --size: 2.4px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 71%; --y: 88%; --size: 1.7px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 4%; --y: 42%; --size: 3.1px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 66%; --y: 55%; --size: 2.2px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 18%; --y: 15%; --size: 2.8px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 87%; --y: 30%; --size: 2.5px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 5%; --y: 92%; --size: 1.9px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 44%; --y: 65%; --size: 2.7px; --glow: 0.65;"></div>
+    <div class="star" style="--x: 79%; --y: 12%; --size: 2.1px; --glow: 0.95;"></div>
+    <div class="star" style="--x: 29%; --y: 78%; --size: 3px; --glow: 0.7;"></div>
+    <div class="star" style="--x: 95%; --y: 25%; --size: 2.4px; --glow: 0.85;"></div>
+    <div class="star" style="--x: 11%; --y: 50%; --size: 2px; --glow: 0.9;"></div>
+    <div class="star" style="--x: 63%; --y: 80%; --size: 2.6px; --glow: 0.75;"></div>
+    <div class="star" style="--x: 37%; --y: 38%; --size: 1.8px; --glow: 0.8;"></div>
+    <div class="star" style="--x: 81%; --y: 62%; --size: 2.3px; --glow: 0.95;"></div>
+    <!-- МЕЛКИЕ ЗВЁЗДЫ (фон) -->
+    <div class="star tiny" style="--x: 3%; --y: 8%; --size: 1.5px; --glow: 0.2;"></div>
+    <div class="star tiny" style="--x: 12%; --y: 5%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 25%; --y: 18%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 40%; --y: 3%; --size: 2.2px; --glow: 0.35;"></div>
+    <div class="star tiny" style="--x: 68%; --y: 12%; --size: 1.7px; --glow: 0.22;"></div>
+    <div class="star tiny" style="--x: 85%; --y: 7%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 92%; --y: 22%; --size: 1.6px; --glow: 0.28;"></div>
+    <div class="star tiny" style="--x: 5%; --y: 35%; --size: 2px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 18%; --y: 48%; --size: 1.9px; --glow: 0.24;"></div>
+    <div class="star tiny" style="--x: 33%; --y: 28%; --size: 2.1px; --glow: 0.33;"></div>
+    <div class="star tiny" style="--x: 50%; --y: 42%; --size: 1.8px; --glow: 0.26;"></div>
+    <div class="star tiny" style="--x: 65%; --y: 38%; --size: 2px; --glow: 0.31;"></div>
+    <div class="star tiny" style="--x: 78%; --y: 52%; --size: 1.7px; --glow: 0.23;"></div>
+    <div class="star tiny" style="--x: 90%; --y: 45%; --size: 2.2px; --glow: 0.34;"></div>
+    <div class="star tiny" style="--x: 8%; --y: 62%; --size: 1.6px; --glow: 0.27;"></div>
+    <div class="star tiny" style="--x: 22%; --y: 75%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 38%; --y: 68%; --size: 1.9px; --glow: 0.29;"></div>
+    <div class="star tiny" style="--x: 55%; --y: 82%; --size: 2.1px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 70%; --y: 70%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 88%; --y: 85%; --size: 1.7px; --glow: 0.21;"></div>
+    <div class="star tiny" style="--x: 2%; --y: 55%; --size: 1.5px; --glow: 0.2;"></div>
+    <div class="star tiny" style="--x: 15%; --y: 20%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 28%; --y: 10%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 45%; --y: 5%; --size: 2.2px; --glow: 0.35;"></div>
+    <div class="star tiny" style="--x: 60%; --y: 25%; --size: 1.7px; --glow: 0.22;"></div>
+    <div class="star tiny" style="--x: 80%; --y: 15%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 95%; --y: 30%; --size: 1.6px; --glow: 0.28;"></div>
+    <div class="star tiny" style="--x: 4%; --y: 45%; --size: 2px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 16%; --y: 60%; --size: 1.9px; --glow: 0.24;"></div>
+    <div class="star tiny" style="--x: 30%; --y: 50%; --size: 2.1px; --glow: 0.33;"></div>
+    <div class="star tiny" style="--x: 52%; --y: 65%; --size: 1.8px; --glow: 0.26;"></div>
+    <div class="star tiny" style="--x: 67%; --y: 58%; --size: 2px; --glow: 0.31;"></div>
+    <div class="star tiny" style="--x: 82%; --y: 72%; --size: 1.7px; --glow: 0.23;"></div>
+    <div class="star tiny" style="--x: 94%; --y: 60%; --size: 2.2px; --glow: 0.34;"></div>
+    <div class="star tiny" style="--x: 6%; --y: 78%; --size: 1.6px; --glow: 0.27;"></div>
+    <div class="star tiny" style="--x: 20%; --y: 90%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 35%; --y: 80%; --size: 1.9px; --glow: 0.29;"></div>
+    <div class="star tiny" style="--x: 58%; --y: 92%; --size: 2.1px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 72%; --y: 85%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 89%; --y: 95%; --size: 1.7px; --glow: 0.21;"></div>
+    <div class="star tiny" style="--x: 1%; --y: 25%; --size: 1.5px; --glow: 0.2;"></div>
+    <div class="star tiny" style="--x: 10%; --y: 12%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 23%; --y: 32%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 37%; --y: 15%; --size: 2.2px; --glow: 0.35;"></div>
+    <div class="star tiny" style="--x: 53%; --y: 28%; --size: 1.7px; --glow: 0.22;"></div>
+    <div class="star tiny" style="--x: 69%; --y: 20%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 84%; --y: 35%; --size: 1.6px; --glow: 0.28;"></div>
+    <div class="star tiny" style="--x: 97%; --y: 22%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 3%; --y: 58%; --size: 1.9px; --glow: 0.24;"></div>
+    <div class="star tiny" style="--x: 14%; --y: 70%; --size: 2.1px; --glow: 0.33;"></div>
+    <div class="star tiny" style="--x: 29%; --y: 62%; --size: 1.8px; --glow: 0.26;"></div>
+    <div class="star tiny" style="--x: 44%; --y: 78%; --size: 2px; --glow: 0.31;"></div>
+    <div class="star tiny" style="--x: 59%; --y: 70%; --size: 1.7px; --glow: 0.23;"></div>
+    <div class="star tiny" style="--x: 74%; --y: 88%; --size: 2.2px; --glow: 0.34;"></div>
+    <div class="star tiny" style="--x: 87%; --y: 80%; --size: 1.6px; --glow: 0.27;"></div>
+    <div class="star tiny" style="--x: 98%; --y: 92%; --size: 1.7px; --glow: 0.21;"></div>
+    <div class="star tiny" style="--x: 5%; --y: 88%; --size: 1.5px; --glow: 0.2;"></div>
+    <div class="star tiny" style="--x: 19%; --y: 95%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 34%; --y: 85%; --size: 1.9px; --glow: 0.29;"></div>
+    <div class="star tiny" style="--x: 51%; --y: 98%; --size: 2.1px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 66%; --y: 90%; --size: 1.8px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 81%; --y: 96%; --size: 1.7px; --glow: 0.21;"></div>
+    <!-- ДОПОЛНИТЕЛЬНАЯ РОССЫПЬ МЕЛКИХ ЗВЁЗД -->
+    <div class="star tiny" style="--x: 7%; --y: 15%; --size: 1.8px; --glow: 0.28;"></div>
+    <div class="star tiny" style="--x: 24%; --y: 8%; --size: 2px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 42%; --y: 22%; --size: 1.6px; --glow: 0.25;"></div>
+    <div class="star tiny" style="--x: 63%; --y: 10%; --size: 1.9px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 81%; --y: 18%; --size: 2.1px; --glow: 0.33;"></div>
+    <div class="star tiny" style="--x: 12%; --y: 33%; --size: 1.7px; --glow: 0.26;"></div>
+    <div class="star tiny" style="--x: 30%; --y: 45%; --size: 2px; --glow: 0.31;"></div>
+    <div class="star tiny" style="--x: 55%; --y: 38%; --size: 1.8px; --glow: 0.27;"></div>
+    <div class="star tiny" style="--x: 72%; --y: 50%; --size: 1.5px; --glow: 0.23;"></div>
+    <div class="star tiny" style="--x: 93%; --y: 40%; --size: 2.2px; --glow: 0.34;"></div>
+    <div class="star tiny" style="--x: 5%; --y: 65%; --size: 1.9px; --glow: 0.29;"></div>
+    <div class="star tiny" style="--x: 20%; --y: 78%; --size: 2px; --glow: 0.3;"></div>
+    <div class="star tiny" style="--x: 37%; --y: 60%; --size: 1.7px; --glow: 0.24;"></div>
+    <div class="star tiny" style="--x: 58%; --y: 75%; --size: 2.1px; --glow: 0.32;"></div>
+    <div class="star tiny" style="--x: 77%; --y: 88%; --size: 1.6px; --glow: 0.22;"></div>
+    <div class="star tiny" style="--x: 95%; --y: 70%; --size: 1.8px; --glow: 0.28;"></div>
+<div class="star tiny" style="--x: 10%; --y: 25%; --size: 2px; --glow: 0.3;"></div>
+<div class="star tiny" style="--x: 28%; --y: 12%; --size: 1.5px; --glow: 0.21;"></div>
+<div class="star tiny" style="--x: 48%; --y: 30%; --size: 1.9px; --glow: 0.29;"></div>
+<div class="star tiny" style="--x: 67%; --y: 20%; --size: 2.2px; --glow: 0.35;"></div>
+<div class="star tiny" style="--x: 85%; --y: 55%; --size: 1.7px; --glow: 0.25;"></div>
+
+<div class="star tiny" style="--x: 3%; --y: 50%; --size: 1.6px; --glow: 0.24;"></div>
+<div class="star tiny" style="--x: 17%; --y: 68%; --size: 2px; --glow: 0.31;"></div>
+<div class="star tiny" style="--x: 35%; --y: 85%; --size: 1.8px; --glow: 0.26;"></div>
+<div class="star tiny" style="--x: 52%; --y: 92%; --size: 1.5px; --glow: 0.2;"></div>
+<div class="star tiny" style="--x: 70%; --y: 78%; --size: 2.1px; --glow: 0.33;"></div>
+<div class="star tiny" style="--x: 88%; --y: 90%; --size: 1.9px; --glow: 0.29;"></div>
+
+<div class="star tiny" style="--x: 14%; --y: 42%; --size: 1.7px; --glow: 0.25;"></div>
+<div class="star tiny" style="--x: 32%; --y: 28%; --size: 2px; --glow: 0.3;"></div>
+<div class="star tiny" style="--x: 50%; --y: 15%; --size: 1.6px; --glow: 0.23;"></div>
+<div class="star tiny" style="--x: 69%; --y: 35%; --size: 1.8px; --glow: 0.27;"></div>
+<div class="star tiny" style="--x: 83%; --y: 25%; --size: 2.2px; --glow: 0.34;"></div>
+
+<div class="star tiny" style="--x: 8%; --y: 82%; --size: 1.5px; --glow: 0.22;"></div>
+<div class="star tiny" style="--x: 25%; --y: 95%; --size: 1.9px; --glow: 0.28;"></div>
+<div class="star tiny" style="--x: 44%; --y: 88%; --size: 2px; --glow: 0.3;"></div>
+<div class="star tiny" style="--x: 61%; --y: 80%; --size: 1.7px; --glow: 0.24;"></div>
+<div class="star tiny" style="--x: 79%; --y: 65%; --size: 2.1px; --glow: 0.32;"></div>
+<div class="star tiny" style="--x: 91%; --y: 85%; --size: 1.8px; --glow: 0.27;"></div>
+  </div>
+  
+     <!-- НОВЫЙ контейнер ТОЛЬКО для Млечного Пути -->
+  <div class="milky-way"></div>
+
+  <div class="constellations"></div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+   <div class="ornament top"></div>  
+
+    <div class="hero-content">
+      <div class="save-the-date">МЫ ЖЕНИМСЯ</div>
+
+      <h1 class="names">
+        <span>Илья</span>
+        <em>&</em>
+        <span>Анастасия</span>
+      </h1>
+
+      <div class="date">30 августа 2026</div>
+
+      <p class="subtitle">
+        Мы будем счастливы разделить этот день вместе с вами
+      </p>
+    </div>
+
+  <div class="ornament bottom"></div>
+  </section>
+
+  <!-- INVITE -->
+  <section class="section glass reveal">
+    <h2>Приглашение</h2>
+    <p>
+      Дорогие родные и друзья!<br><br>
+      Совсем скоро наступит один из самых важных дней нашей жизни.
+      Мы будем счастливы видеть вас рядом и разделить этот особенный момент вместе.
+    </p>
+  </section>
+
+  <!-- TIMER -->
+  <section class="section glass reveal">
+    <h2>До нашей свадьбы осталось</h2>
+
+    <div class="timer" id="timer">
+      <div class="time-box"><span id="days">0</span><label>дней</label></div>
+      <div class="time-box"><span id="hours">0</span><label>часов</label></div>
+      <div class="time-box"><span id="minutes">0</span><label>минут</label></div>
+      <div class="time-box"><span id="seconds">0</span><label>секунд</label></div>
+    </div>
+  </section>
+
+
+<!-- PROGRAM -->
+<section class="section reveal">
+  <h2>Программа дня</h2>
+
+  <div class="timeline">
+    <div class="event">
+      <span class="event-time">15:30</span>
+      <div class="event-dot"></div>
+      <p>Сбор гостей</p>
+    </div>
+    <div class="line"></div>
+
+    <div class="event">
+      <span class="event-time">16:00</span>
+      <div class="event-dot"></div>
+      <p>Начало церемонии</p>
+    </div>
+    <div class="line"></div>
+
+    <div class="event">
+      <span class="event-time">17:00</span>
+      <div class="event-dot"></div>
+      <p>Начало банкета</p>
+    </div>
+    <div class="line"></div>
+
+    <div class="event">
+      <span class="event-time">23:00</span>
+      <div class="event-dot"></div>
+      <p>Окончание мероприятия</p>
+    </div>
+  </div>
+</section>
+
+  <!-- LOCATION -->
+  <section class="section glass reveal">
+    <h2>Место проведения</h2>
+    <p class="center">
+      «Земские имения»<br>
+      Посёлок Поплавский<br>
+      улица Земская<br>
+      земельный участок 1
+    </p>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="section glass reveal">
+    <h2>Дресс-код</h2>
+    <p class="center">
+      Будем рады видеть вас в праздничных и нарядных образах.
+    </p>
+  </section>
+
+  <!-- RSVP -->
+  <section class="section glass rsvp reveal">
+    <h2>Подтверждение присутствия</h2>
+    <p>
+      Пожалуйста, подтвердите своё присутствие до 10 августа и ответьте на несколько коротких вопросов
+    </p>
+
+    <a class="btn" href="https://forms.yandex.ru/u/6a42a58e84227c4e5842ad5e" target="_blank">
+      ПОДТВЕРДИТЬ ПРИСУТСТВИЕ
+    </a>
+  </section>
+  
+    
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+const starsContainer = document.querySelector('.milky-way');
+    if (!starsContainer) return;
+
+    const count = 1000; // теперь 1000 попыток создать звезду
+
+    // Палитра цветов
+    const colors = [
+      'rgba(147, 112, 219, 0.5)',   // сиреневый
+      'rgba(135, 206, 235, 0.5)',   // голубой
+      'rgba(212, 175, 55, 0.6)'     // золотой
+    ];
+
+    for (let i = 0; i < count; i++) {
+      const star = document.createElement('div');
+      star.className = 'star tiny';
+
+      // X по всей ширине
+      const x = Math.random() * 100;
+
+      // Центр полосы (вправо-вверх)
+      const centerY = 60 - (x * 0.5);
+
+      // Толщина полосы: чем больше spread, тем шире ядро
+      const spread = 30;
+      const y = centerY + (Math.random() - 0.5) * spread;
+
+      // Расстояние от центра полосы
+      const distanceFromCenter = Math.abs(y - centerY);
+
+      // Вероятность появления: ближе к центру — почти всегда, дальше — реже
+      // Это и даёт плавное «растворение» по краям
+      const probability = 1 - (distanceFromCenter / spread);
+      if (Math.random() > probability) {
+        continue; // пропускаем эту звезду — так края становятся реже
+      }
+
+      const size = 1 + Math.random() * 1.5;
+      const glow = 0.08 + Math.random() * 0.12;
+      const color = colors[Math.floor(Math.random() * colors.length)];
+
+      star.style.setProperty('--x', x + '%');
+      star.style.setProperty('--y', y + '%');
+      star.style.setProperty('--size', size + 'px');
+      star.style.setProperty('--glow', glow);
+      star.style.setProperty('--star-color', color);
+
+      starsContainer.appendChild(star);
+    }
+  });
+</script>
+
+  <script src="script.js"></script>
+</body>
+</html>
